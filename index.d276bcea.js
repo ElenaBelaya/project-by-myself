@@ -1,2 +1,0 @@
-function e(e,t,o,n){Object.defineProperty(e,t,{get:o,set:n,enumerable:!0,configurable:!0})}var t={};e(t,"BASE_URL",(function(){return o})),e(t,"KEY",(function(){return n}));const o="https://api.themoviedb.org/3",n="476dab1d501621899284a1a134c160d7",c={ul:document.querySelector(".film-list")};console.log(t),console.log(c.ul);fetch("https://api.themoviedb.org/3/trending/movie/day?api_key=3c9b3437ebab156a512248e157c99300").then((e=>e.json)).then(console.dir);
-//# sourceMappingURL=index.d276bcea.js.map
