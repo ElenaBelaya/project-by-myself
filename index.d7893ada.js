@@ -1,0 +1,2 @@
+!function(){function e(e,n,t,o){Object.defineProperty(e,n,{get:t,set:o,enumerable:!0,configurable:!0})}var n={};e(n,"BASE_URL",(function(){return t})),e(n,"KEY",(function(){return o}));var t="https://api.themoviedb.org/3",o="476dab1d501621899284a1a134c160d7",r={ul:document.querySelector(".film-list")};console.log(n),console.log(r.ul);fetch("https://api.themoviedb.org/3/trending/movie/day?api_key=3c9b3437ebab156a512248e157c99300").then((function(e){return e.json})).then(console.dir)}();
+//# sourceMappingURL=index.d7893ada.js.map
